@@ -1,0 +1,10 @@
+gtts
+mysql
+email
+python-csv
+pydub
+SpeechRecognition
+watchdog
+loguru
+python-dotenv
+
