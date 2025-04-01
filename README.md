@@ -79,11 +79,6 @@ python3 -m email_agent.get_mail
 }
 ```
 
-## Customization
-- Modify `agents.py` to change response behavior.
-- Update `tasks.py` to fine-tune complaint classification.
-- Modify `crm.py` to change database interactions.
-
 ## Contributing
 1. Fork the repo.
 2. Create a new branch (`feature-name`).
