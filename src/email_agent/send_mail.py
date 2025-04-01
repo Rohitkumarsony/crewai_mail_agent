@@ -200,7 +200,7 @@ def process_email_sending(subject, body, recipient):
         # Email configuration
         smtp_server = os.getenv("SMTP_SERVER", "smtp.gmail.com")
         smtp_port = int(os.getenv("SMTP_PORT", 587))
-        smtp_username = 'rohitkumar1.eminence@gmail.com'
+        smtp_username = os.getenv("USERNAME_EMAIL")
         smtp_password = os.getenv("MAIL_PASSWORD")
         sender_email = recipient
         
